@@ -1,4 +1,4 @@
-#Software Build
+# Software Build
 A process of converting source code into an artifact that is usable (usually single unit or coordinating component of a unit piece of software).
 
     It is a process of creating application binaries/artefacts for software release, by processing, pre-processing  all source files and generating a deployable version thus creating a build artefact.
@@ -9,14 +9,14 @@ Building a software is a tedious and labroiously complex process, involving ;
 - Compilation
 - Packaging
 
-##Build automation 
+## Build automation 
 is the process of automating the creation of a software build and the associated processes including: 
 
  - Compiling (Source code).
  - Packaging (Binary code).
  - Testing (Automated).
 
-##Build Tools (a.k.a Task Runners)
+## Build Tools (a.k.a Task Runners)
 is a utility that coordinates and controls other programs i.e (compiler, linker, packager etc), it helps perform common tasks repeatedly in a scripted and autonomous fashion, examples are;
 - [Make &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" width=15 height=15>](https://www.gnu.org/software/make/)
 - [Gulp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp.png" width=10 height=20>](https://gulpjs.com/)
@@ -26,7 +26,7 @@ is a utility that coordinates and controls other programs i.e (compiler, linker,
 
 All build tools manages build with a some form of task system, allowing developers source code maintainers to define exactly how the source code should be build. 
 
-####Building
+#### Building
 Build tools provide abstract wrappers over undelying native/platform dependent tools.
 ####Bundling
 Bundler is designed to link pieces of source code ia logically related/linked fashion, identifying dependencies across code units/files.
