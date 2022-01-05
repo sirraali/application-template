@@ -1,0 +1,37 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx gulp",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-nodemon": "^0.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "assemble": "^0.24.3",
+    "del": "^6.0.0",
+    "eslint": "^8.6.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-extname": "^0.2.2",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-inject": "^5.0.5",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "normalize.less": "^1.0.0"
+  }
+}
